@@ -295,6 +295,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection Code\CircularBuffer.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection Code\Detector.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection Code\Extensions.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection Code\IIRFilter.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection Code\PitchDsp.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection Code\PitchTracker.cs" />
+    <Compile Include="Assets\Scripts\Pitch Detection\script\template.cs" />
+    <Compile Include="Assets\Scripts\Tuner\script\tuner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\Pitch Detection Code\help.txt" />
+    <None Include="Assets\Scripts\Pitch Detection Code\info.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
